@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main(){
-	int a,b,c;
+	int a,b,c = 0;
 	printf("a = ");
 	scanf("%d",&a);
 	printf("b = ");
 	scanf("%d",&b);
 
-for(int i = a; i <= b; i++){
-c = c+i;
-}
-printf("from a to b = %d\n", c);
-return 0;
+	for(int i = a; i <= b; i++){
+		c = c+i;
+	}
+	printf("from a to b = %d\n", c);
+	return 0;
 }
 
